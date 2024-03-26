@@ -4,20 +4,23 @@ import PlayStore from '../assets/playStore.svg'
 import Cuisto2 from '../assets/cuisto2.png'
 import Fleur from '../assets/fleur.png'
 
+import Cacao from '../assets/cacao.svg'
+
 
 function Download() {
   return (
     <div className='w-full bg-gradient-to-b from-transparent dark:from-gray-900/70 to-[#F54748]/20 dark:to-[#FDC55E]/10'>
         <div className='lg:flex lg:items-center lg:flex-row-reverse relative'>
+            <img src={Cacao} alt="" className='absolute top-0 right-0 z-20 w-[162.26px] h-[159.64px] lg:w-auto lg:h-auto'/>
             
             {/* div images */}
-            <div className='border-[1px] border-red-600 w-full relative'>
+            <div className='w-full relative'>
                 <img src={Cuisto2} alt="" className='w-fit mx-auto lg:w-[700px] object-contain'/>
-                <img src={Fleur} alt="" className='absolute bottom-0 right-[10px] w-[173.3px] h-[114.47px] lg:w-[271px] lg:h-[179px]'/>
+                <img src={Fleur} alt="" className='absolute bottom-0 right-[100px] w-[173.3px] h-[114.47px] lg:w-[271px] lg:h-[179px]'/>
             </div>
 
             {/* div des textes */}
-            <div className='lg:px-[70px]  h-96 border-[1px] border-yellow-500 w-full px-[24px] text-start'>
+            <div className='lg:px-[70px] w-full px-[24px] text-start'>
                 <p className='text-black font-bold dark:text-white text-[48px]'>It’s Now  <span className='text-[#F54748]'>More Easy</span> to <span className='text-[#FDC55E]'>Order <br className='hidden lg:flex'/></span>by Our Mobile <span className='text-[#F54748]'>App</span> </p>
                 
                 <p className='text-[#191919] dark:text-white text-[18px] mt-[15px] lg:mt-[22px]'>

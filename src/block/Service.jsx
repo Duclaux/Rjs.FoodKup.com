@@ -16,7 +16,7 @@ function Service() {
         <div className='lg:flex lg:items-center'>
             {/* bock images */}
             <motion.div 
-                className='border-[1px] border-yellow-500 w-full px-[24px] lg:px-[50px] relative'
+                className='w-full px-[24px] lg:px-[50px] relative'
                 initial={{
                     x:-300,
                     opacity:0
@@ -38,7 +38,7 @@ function Service() {
             
             {/* block texte */}
             <motion.div 
-                className='border-[1px] border-yellow-500 w-full px-[24px] lg:px-0 text-start'
+                className='w-full px-[24px] lg:px-0 text-start'
                 initial={{
                     x:300,
                     opacity:0

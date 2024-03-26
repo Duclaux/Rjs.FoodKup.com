@@ -212,7 +212,7 @@ function HeroTop() {
                             </div>
                         </div>
 
-                        <div className='flex items-center space-x-10 min-[418px]:space-x-0 mt-[30px] lg:mt-[34px]'>
+                        <div className='flex items-center space-x-10 mt-[30px] lg:mt-[34px]'>
                             <div className='bg-[#F54748] px-[15px] py-[10px] rounded-[100px] w-fit '>
                                 <a href="#" className='text-[14px] min-[400px]:text-[18px] text-white dark:text-black font-bold'>Downlode App</a>
                             </div>
